@@ -13,7 +13,7 @@ export default function Home() {
             Shashwat Dubey
           </h1>
           <p className="text-stone-500">
-            Lead UX &amp; Product{" "}
+            Founding Design {" "}
             <a href="https://physera.ai" className={linkClass}>
               @Physera
             </a>
@@ -36,7 +36,7 @@ export default function Home() {
               <span className="text-stone-400"> · Oct 2025 — Apr 2026</span>
             </p>
             <p>
-              Product Engineer{" "}
+              Frontend SDE{" "}
               <a href="#" className={linkClass}>
                 @SurvAI
               </a>

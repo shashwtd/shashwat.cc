@@ -8,9 +8,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shashwat Dubey",
+  title: "shashwat dubey -- portfolio",
   description:
-    "Product designer and engineer at Physera. Building thoughtful things on the internet.",
+    "product designer and engineer at physera. building thoughtful things on the internet.",
 };
 
 export default function RootLayout({
