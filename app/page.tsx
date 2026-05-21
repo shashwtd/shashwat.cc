@@ -6,49 +6,62 @@ const linkClass =
 export default function Home() {
   return (
     <main className="animate-enter w-full max-w-[480px]">
-      <div className="px-7 py-7 space-y-5">
+      <div className="px-6 py-7 space-y-5">
         <header className="pb-4 border-b border-stone-200">
           <AsciiRotation />
           <h1 className="pb-3 font-semibold text-base text-stone-950">
             Shashwat Dubey
           </h1>
           <p className="text-stone-500">
-            Founding Design {" "}
+            doing design {" "}
             <a href="https://physera.ai" className={linkClass}>
               @Physera
             </a>
           </p>
           <p className="text-stone-500 mt-2">
-            Building thoughtful things on the internet. Drawn to product craft,
-            fast prototypes, and the gap between an idea and the working version
-            of it.
+            i like building things. i absolutely adore well crafted designs, and ideas that have human thoughts behind them.
           </p>
         </header>
 
         <div className="pb-4 border-b border-stone-200">
           <p className="text-stone-400 mb-1">Previously</p>
-          <div className="space-y-1 text-stone-600">
-            <p>
-              UX &amp; Product{" "}
-              <a href="#" className={linkClass}>
-                @Kairos
-              </a>
-              <span className="text-stone-400">&nbsp;&nbsp;Oct 2025 — Apr 2026</span>
-            </p>
-            <p>
-              Frontend SDE{" "}
-              <a href="#" className={linkClass}>
-                @SurvAI
-              </a>
-              <span className="text-stone-400">&nbsp;&nbsp;May 2024 — Oct 2024</span>
-            </p>
-            <p>
-              Design Intern{" "}
-              <a href="#" className={linkClass}>
-                @STEMist
-              </a>
-              <span className="text-stone-400">&nbsp;&nbsp;Jun 2023 — Sep 2023</span>
-            </p>
+          <div className="space-y-1.5 text-stone-600">
+            <div className="flex flex-nowrap items-baseline justify-between gap-3 sm:gap-4">
+              <span className="min-w-0 shrink">
+                UX &amp; Product{" "}
+                <a href="#" className={linkClass}>
+                  @Kairos
+                </a>
+              </span>
+              <span className="shrink-0 whitespace-nowrap text-right text-stone-400">
+                <span className="sm:hidden">oct 25 — apr 26</span>
+                <span className="hidden sm:inline">oct 2025 — apr 2026</span>
+              </span>
+            </div>
+            <div className="flex flex-nowrap items-baseline justify-between gap-3 sm:gap-4">
+              <span className="min-w-0 shrink">
+                Frontend SDE{" "}
+                <a href="#" className={linkClass}>
+                  @SurvAI
+                </a>
+              </span>
+              <span className="shrink-0 whitespace-nowrap text-right text-stone-400">
+                <span className="sm:hidden">may 24 — oct 24</span>
+                <span className="hidden sm:inline">may 2024 — oct 2024</span>
+              </span>
+            </div>
+            <div className="flex flex-nowrap items-baseline justify-between gap-3 sm:gap-4">
+              <span className="min-w-0 shrink">
+                Design Intern{" "}
+                <a href="#" className={linkClass}>
+                  @STEMist
+                </a>
+              </span>
+              <span className="shrink-0 whitespace-nowrap text-right text-stone-400">
+                <span className="sm:hidden">jun 23 — sep 23</span>
+                <span className="hidden sm:inline">jun 2023 — sep 2023</span>
+              </span>
+            </div>
           </div>
         </div>
 
