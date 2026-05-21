@@ -1,6 +1,40 @@
 @import "tailwindcss";
 
+@theme inline {
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #faf9f7;
+  --foreground: #1c1917;
+}
+
 html,
 body {
   height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-enter {
+  animation: 0.4s both enter;
+}
+
+::selection {
+  background-color: rgba(28, 25, 23, 0.12);
 }
