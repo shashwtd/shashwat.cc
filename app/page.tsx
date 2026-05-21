@@ -33,21 +33,21 @@ export default function Home() {
               <a href="#" className={linkClass}>
                 @Kairos
               </a>
-              <span className="text-stone-400"> · Oct 2025 — Apr 2026</span>
+              <span className="text-stone-400">&nbsp;&nbsp;Oct 2025 — Apr 2026</span>
             </p>
             <p>
               Frontend SDE{" "}
               <a href="#" className={linkClass}>
                 @SurvAI
               </a>
-              <span className="text-stone-400"> · May 2024 — Oct 2024</span>
+              <span className="text-stone-400">&nbsp;&nbsp;May 2024 — Oct 2024</span>
             </p>
             <p>
               Design Intern{" "}
               <a href="#" className={linkClass}>
                 @STEMist
               </a>
-              <span className="text-stone-400"> · Jun 2023 — Sep 2023</span>
+              <span className="text-stone-400">&nbsp;&nbsp;Jun 2023 — Sep 2023</span>
             </p>
           </div>
         </div>

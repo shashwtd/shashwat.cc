@@ -8,7 +8,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "shashwat dubey -- portfolio",
+  title: "shashwat dubey ~ ",
   description:
     "product designer and engineer at physera. building thoughtful things on the internet.",
 };
