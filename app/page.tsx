@@ -1,3 +1,5 @@
+import { AsciiRotation } from "./components/ascii-rotation";
+
 const linkClass =
   "underline decoration-stone-400 underline-offset-2 decoration-[0.5px] hover:decoration-stone-900 transition-colors duration-200";
 
@@ -6,7 +8,8 @@ export default function Home() {
     <main className="animate-enter w-full max-w-[480px]">
       <div className="px-7 py-7 space-y-5">
         <header className="pb-4 border-b border-stone-200">
-          <h1 className="pb-3 font-semibold text-[17px] text-stone-950">
+          <AsciiRotation />
+          <h1 className="pb-3 font-semibold text-base text-stone-950">
             Shashwat Dubey
           </h1>
           <p className="text-stone-500">
@@ -93,7 +96,7 @@ export default function Home() {
         <div>
           <p className="text-stone-400 mb-1">Elsewhere</p>
           <p className="text-stone-600">
-            <a href="mailto:shashwat5590@gmail.com" className={linkClass}>
+            <a href="mailto:hi@shashwat.cc" className={linkClass}>
               email
             </a>
             <span className="text-stone-400"> · </span>
