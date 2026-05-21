@@ -3,8 +3,8 @@ import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
   subsets: ["latin"],
+  variable: "--font-geist-mono",
 });
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={geistMono.variable}>
-      <body className="antialiased text-[13px] leading-relaxed flex items-center justify-center min-h-screen p-6">
+      <body className="antialiased tracking-snug text-[13px] leading-relaxed flex items-center justify-center min-h-screen p-6">
         {children}
       </body>
     </html>

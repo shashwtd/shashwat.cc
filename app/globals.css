@@ -2,6 +2,7 @@
 
 @theme inline {
   --font-mono: var(--font-geist-mono);
+  --tracking-snug: -0.0125em;
 }
 
 :root {
